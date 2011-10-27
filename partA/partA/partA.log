@@ -1,0 +1,4 @@
+﻿  StudentList.cpp
+c:\users\aurora borealis\desktop\cmpe160project3\parta\parta\studentlist.cpp(49): warning C4715: 'StudentList::printwrtID' : not all control paths return a value
+c:\users\aurora borealis\desktop\cmpe160project3\parta\parta\studentlist.cpp(107): warning C4715: 'StudentList::traverseANDsearch' : not all control paths return a value
+  partA.vcxproj -> C:\Users\Aurora Borealis\Desktop\cmpe160project3\partA\Debug\partA.exe

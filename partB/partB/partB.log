@@ -1,0 +1,41 @@
+﻿Build started 3/8/2010 12:39:00 PM.
+     1>Project "E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\partB\partB.vcxproj" on node 1 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "Debug\partB.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt run.cpp stringprocess.cpp StudentList.cpp StudentNode.cpp
+         StudentNode.cpp
+     1>e:\2008400078\0910fall\cmpe160\cmpe160project3\partb\partb\studentnode.cpp(151): warning C4101: 'ex' : unreferenced local variable
+         StudentList.cpp
+         stringprocess.cpp
+         run.cpp
+     1>e:\2008400078\0910fall\cmpe160\cmpe160project3\partb\partb\run.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+     1>e:\2008400078\0910fall\cmpe160\cmpe160project3\partb\partb\studentlist.cpp(46): warning C4715: 'StudentList::printwrtID' : not all control paths return a value
+     1>e:\2008400078\0910fall\cmpe160\cmpe160project3\partb\partb\studentlist.cpp(77): warning C4715: 'StudentList::traverseANDsearch' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\partB.exe.embed.manifest.res" Debug\partB_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\partB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.lib" /MACHINE:X86 Debug\run.obj
+         Debug\stringprocess.obj
+         Debug\StudentList.obj
+         Debug\StudentNode.obj
+         Debug\partB.exe.embed.manifest.res
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\partB.exe.embed.manifest" /manifest Debug\partB.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\partB.exe.embed.manifest.res" Debug\partB_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\partB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.lib" /MACHINE:X86 Debug\run.obj
+         Debug\stringprocess.obj
+         Debug\StudentList.obj
+         Debug\StudentNode.obj
+         Debug\partB.exe.embed.manifest.res
+         partB.vcxproj -> E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\Debug\partB.exe
+       _AfterBuild:
+         Deleting file "Debug\partB.unsuccessfulbuild".
+         Touching "Debug\partB.lastbuildstate".
+     1>Done Building Project "E:\2008400078\0910fall\cmpe160\cmpe160project3\partB\partB\partB.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.11
